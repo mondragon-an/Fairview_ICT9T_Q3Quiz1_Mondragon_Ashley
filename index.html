@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>javascript ᡣ𐭩 •｡ꪆৎ ˚⋅</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <style>
+        body{
+            padding: 80px;
+            font-family: Didact Gothic;
+            text-align: center;
+        }
+        label{
+            padding: 5px;
+            font-size: 20px;
+        }
+        h3,h1{
+            font-weight: bolder;
+        }
+        .btn{
+            border: solid black 3px;
+            margin-bottom: 6px;
+            background-color: rgb(255, 211, 228);
+        }
+        .col-md-4{
+            border-color: black;
+            border-style: solid;
+            border-width: 2px;
+        }
+        .row{
+            border-color: black;
+            border-style: solid;
+            border-radius: 15px;
+            border-width: 4px;
+            background-color: white;
+            box-shadow: 10px 10px;
+
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="container" style="background-color: rgb(255, 211, 228); border-radius: 15px; box-shadow: 10px 10px;">
+    <h1 class="fluid">operators ✦ . ⁺  </h1>
+    <h4>a = 5 and b = 10, compute for the following</h4>
+    </div>
+   <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" >
+                <h3>arithmetic</h3>
+                <script>
+                    var a = 5;
+                    var b = 10;
+               </script>
+               <label>what is a + b? </label><label id="1"> </label>
+               <br>
+               <button type="button" class="btn" onclick="let a = 5; let b = 10; document.getElementById('1').innerHTML= a + b;">show answer</button>
+               <br>
+               <label>what is b - a? </label><label id="2"> </label>
+               <br>
+               <button type="button" class="btn" onclick="let a = 5; let b = 10; document.getElementById('2').innerHTML= b - a;">show answer</button>
+            </div>
+            <div class="col-md-4">
+                <h3>comparison</h3>
+                <script>
+                    var a = 5;
+                    var b = 10;
+               </script>
+               <label>is a greater than b? </label><label id="3"> </label>
+               <br>
+               <button type="button" class="btn" onclick="let a = 5; let b = 10; document.getElementById('3').innerHTML= a > b;">show answer</button>
+               <br>
+               <label>is a less than b? </label><label id="4"> </label>
+               <br>
+               <button type="button" class="btn" onclick="let a = 5; let b = 10; document.getElementById('4').innerHTML= a < b;">show answer</button>
+            </div>
+            <div class="col-md-4">
+                <h3>logical</h3>
+                <script>
+                    var a = 5;
+                    var b = 10;
+               </script>
+               <label>is (a <= b) and (a >= b)?</label><label id="5"> </label>
+               <br>
+               <button type="button" class="btn" onclick="let a = 5; let b = 10; document.getElementById('5').innerHTML= (a <= b)&&(a >= b);">show answer</button>
+               <br>
+               <label>is (a! = b) or (a == b)? </label><label id="6"> </label>
+               <br>
+               <button type="button" class="btn" onclick="let a = 5; let b = 10; document.getElementById('6').innerHTML=  (a != b) || (a == b);">show answer</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <a href="index.html"><button type="button" class="btn btn-block">clear answers</button></a>
+
+
+
+    
+</body>
+
+</html>
